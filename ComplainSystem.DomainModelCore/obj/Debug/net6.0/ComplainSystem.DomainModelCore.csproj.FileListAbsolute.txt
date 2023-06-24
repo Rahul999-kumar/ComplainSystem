@@ -1,0 +1,12 @@
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.DomainModelCore\bin\Debug\net6.0\ComplainSystem.DomainModelCore.deps.json
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.DomainModelCore\bin\Debug\net6.0\ComplainSystem.DomainModelCore.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.DomainModelCore\bin\Debug\net6.0\ComplainSystem.DomainModelCore.pdb
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.DomainModelCore\obj\Debug\net6.0\ComplainSystem.DomainModelCore.csproj.AssemblyReference.cache
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.DomainModelCore\obj\Debug\net6.0\ComplainSystem.DomainModelCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.DomainModelCore\obj\Debug\net6.0\ComplainSystem.DomainModelCore.AssemblyInfoInputs.cache
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.DomainModelCore\obj\Debug\net6.0\ComplainSystem.DomainModelCore.AssemblyInfo.cs
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.DomainModelCore\obj\Debug\net6.0\ComplainSystem.DomainModelCore.csproj.CoreCompileInputs.cache
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.DomainModelCore\obj\Debug\net6.0\ComplainSystem.DomainModelCore.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.DomainModelCore\obj\Debug\net6.0\refint\ComplainSystem.DomainModelCore.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.DomainModelCore\obj\Debug\net6.0\ComplainSystem.DomainModelCore.pdb
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.DomainModelCore\obj\Debug\net6.0\ref\ComplainSystem.DomainModelCore.dll

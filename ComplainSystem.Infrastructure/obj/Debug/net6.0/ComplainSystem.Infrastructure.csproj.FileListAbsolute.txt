@@ -1,0 +1,17 @@
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\bin\Debug\net6.0\ComplainSystem.Infrastructure.deps.json
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\bin\Debug\net6.0\ComplainSystem.Infrastructure.runtimeconfig.json
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\bin\Debug\net6.0\ComplainSystem.Infrastructure.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\bin\Debug\net6.0\ComplainSystem.Infrastructure.pdb
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\bin\Debug\net6.0\ComplainSystem.Application.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\bin\Debug\net6.0\ComplainSystem.Application.pdb
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.AssemblyInfo.cs
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.csproj.CopyComplete
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\refint\ComplainSystem.Infrastructure.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.pdb
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.genruntimeconfig.cache
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ref\ComplainSystem.Infrastructure.dll

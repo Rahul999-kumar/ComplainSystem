@@ -1,5 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
-
+//Register Configuration
+ConfigurationManager configuration = builder.Configuration;
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -7,6 +8,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+//Add Datbase Service
+//builder.Services.AddDbContext<ComplainSystemDB>(opt =>
+//{
+//    opt.Database.EnsureCreated();
+//});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
