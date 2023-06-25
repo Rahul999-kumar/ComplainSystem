@@ -15,3 +15,5 @@ D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\D
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.pdb
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.genruntimeconfig.cache
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ref\ComplainSystem.Infrastructure.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\bin\Debug\net6.0\ComplainSystem.DomainModelCore.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\bin\Debug\net6.0\ComplainSystem.DomainModelCore.pdb

@@ -10,3 +10,6 @@ D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Application\obj\Debu
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Application\obj\Debug\net6.0\refint\ComplainSystem.Application.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Application\obj\Debug\net6.0\ComplainSystem.Application.pdb
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Application\obj\Debug\net6.0\ref\ComplainSystem.Application.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Application\bin\Debug\net6.0\ComplainSystem.DomainModelCore.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Application\bin\Debug\net6.0\ComplainSystem.DomainModelCore.pdb
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Application\obj\Debug\net6.0\ComplainSystem.Application.csproj.CopyComplete

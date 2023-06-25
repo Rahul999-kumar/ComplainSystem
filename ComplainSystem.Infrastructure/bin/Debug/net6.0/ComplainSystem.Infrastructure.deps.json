@@ -486,8 +486,16 @@
         }
       },
       "ComplainSystem.Application/1.0.0": {
+        "dependencies": {
+          "ComplainSystem.DomainModelCore": "1.0.0"
+        },
         "runtime": {
           "ComplainSystem.Application.dll": {}
+        }
+      },
+      "ComplainSystem.DomainModelCore/1.0.0": {
+        "runtime": {
+          "ComplainSystem.DomainModelCore.dll": {}
         }
       }
     }
@@ -800,6 +808,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "ComplainSystem.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ComplainSystem.DomainModelCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

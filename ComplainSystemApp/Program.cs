@@ -1,3 +1,7 @@
+using ComplainSystem.Application;
+using ComplainSystem.Infrastructure;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 //Register Configuration
 ConfigurationManager configuration = builder.Configuration;
@@ -8,12 +12,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
+builder.Services.AddDbContext<CSDbContext>(opt => opt.UseSqlServer(configuration.GetConnectionString("ComplainSystemDB"),
+    b => b.MigrationsAssembly("ComplainSystemApp")));
 //Add Datbase Service
-//builder.Services.AddDbContext<ComplainSystemDB>(opt =>
-//{
-//    opt.Database.EnsureCreated();
-//});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

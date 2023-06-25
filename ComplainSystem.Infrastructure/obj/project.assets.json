@@ -635,11 +635,24 @@
       "ComplainSystem.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ComplainSystem.DomainModelCore": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ComplainSystem.Application.dll": {}
         },
         "runtime": {
           "bin/placeholder/ComplainSystem.Application.dll": {}
+        }
+      },
+      "ComplainSystem.DomainModelCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ComplainSystem.DomainModelCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ComplainSystem.DomainModelCore.dll": {}
         }
       }
     }
@@ -1865,6 +1878,11 @@
       "type": "project",
       "path": "../ComplainSystem.Application/ComplainSystem.Application.csproj",
       "msbuildProject": "../ComplainSystem.Application/ComplainSystem.Application.csproj"
+    },
+    "ComplainSystem.DomainModelCore/1.0.0": {
+      "type": "project",
+      "path": "../ComplainSystem.DomainModelCore/ComplainSystem.DomainModelCore.csproj",
+      "msbuildProject": "../ComplainSystem.DomainModelCore/ComplainSystem.DomainModelCore.csproj"
     }
   },
   "projectFileDependencyGroups": {

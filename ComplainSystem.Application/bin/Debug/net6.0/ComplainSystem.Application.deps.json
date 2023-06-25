@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "ComplainSystem.Application/1.0.0": {
+        "dependencies": {
+          "ComplainSystem.DomainModelCore": "1.0.0"
+        },
         "runtime": {
           "ComplainSystem.Application.dll": {}
+        }
+      },
+      "ComplainSystem.DomainModelCore/1.0.0": {
+        "runtime": {
+          "ComplainSystem.DomainModelCore.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ComplainSystem.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ComplainSystem.DomainModelCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

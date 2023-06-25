@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ComplainSystem.Application\ComplainSystem.Application.csproj" />
+    <ProjectReference Include="..\ComplainSystem.Infrastructure\ComplainSystem.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

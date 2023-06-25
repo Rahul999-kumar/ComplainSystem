@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ComplainSystem.DomainModelCore\ComplainSystem.DomainModelCore.csproj" />
+  </ItemGroup>
+
 </Project>
