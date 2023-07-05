@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ComplainSystem.DomainModelCore.CoreEntities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,8 @@ namespace ComplainSystem.Application.IServices
     //This is the use case
     public interface IUserRegistrationService
     {
-        bool IsUserRegistered();
+        UserRegistartion NewUserRegistration(UserRegistartion userModel);
+
+        List<UserRegistartion> GetAllRegisteredUsers();
     }
 }

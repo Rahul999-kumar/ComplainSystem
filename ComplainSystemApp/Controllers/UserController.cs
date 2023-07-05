@@ -1,6 +1,8 @@
 ﻿using ComplainSystem.Application.IServices;
-
+using ComplainSystem.Application.Repositories;
+using ComplainSystem.DomainModelCore.CoreEntities;
 using Microsoft.AspNetCore.Mvc;
+
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -19,10 +21,10 @@ namespace ComplainSystemApp.Controllers
         }
         // GET: api/<UserController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<UserRegistartion> Get()
         {
-            _userService.IsUserRegistered();
-            return new string[] { "value1", "value2" };
+            //_userService.IsUserRegistered();
+            return _userService.GetAllRegisteredUsers();
         }
 
         // GET api/<UserController>/5
@@ -33,9 +35,15 @@ namespace ComplainSystemApp.Controllers
         }
 
         // POST api/<UserController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("NewUser")]
+        public ActionResult NewUser(UserRegistartion dataModel)
         {
+            if (dataModel != null)
+            {
+                var data = _userService.NewUserRegistration(dataModel);
+                return Ok(data);
+            }
+            return Ok();
         }
 
         // PUT api/<UserController>/5

@@ -16,7 +16,6 @@ D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\ComplainSystemApp.AssemblyInfoInputs.cache
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\ComplainSystemApp.AssemblyInfo.cs
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\ComplainSystemApp.csproj.CoreCompileInputs.cache
-D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\ComplainSystemApp.MvcApplicationPartsAssemblyInfo.cs
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\ComplainSystemApp.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\staticwebassets.build.json
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\staticwebassets.development.json
@@ -65,3 +64,4 @@ D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\bin\Debug\net6.0\
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\bin\Debug\net6.0\ComplainSystem.Infrastructure.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\bin\Debug\net6.0\ComplainSystem.Infrastructure.pdb
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

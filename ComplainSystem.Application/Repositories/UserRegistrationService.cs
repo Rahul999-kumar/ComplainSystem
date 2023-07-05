@@ -1,5 +1,6 @@
 ﻿using ComplainSystem.Application.IRepositories;
 using ComplainSystem.Application.IServices;
+using ComplainSystem.DomainModelCore.CoreEntities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,10 +25,15 @@ namespace ComplainSystem.Application.Repositories
         {
             _userRepository = userRepository;
         }
-        public bool IsUserRegistered()
+
+        public List<UserRegistartion> GetAllRegisteredUsers()
         {
-            bool IsReg = _userRepository.IsUserRegistered();
-            return IsReg;
+            return _userRepository.GetAllRegisteredUsers();
+        }
+
+        public UserRegistartion NewUserRegistration(UserRegistartion userModel)
+        {
+            return _userRepository.NewUserRegistration(userModel);
         }
     }
 }

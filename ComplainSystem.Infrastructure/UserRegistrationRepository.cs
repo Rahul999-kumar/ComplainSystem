@@ -1,4 +1,5 @@
 ﻿using ComplainSystem.Application.IRepositories;
+using ComplainSystem.DomainModelCore.CoreEntities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,9 +20,18 @@ namespace ComplainSystem.Infrastructure
         {
             _csDbContext = csDbContext;
         }
-        public bool IsUserRegistered()
+
+        public List<UserRegistartion> GetAllRegisteredUsers()
         {
-            return true;
+            return _csDbContext.UserRegistration.ToList();
+        }
+
+        public UserRegistartion NewUserRegistration(UserRegistartion userModel)
+        {
+            _csDbContext.UserRegistration.Add(userModel);
+            _csDbContext.SaveChanges();
+            return userModel;
         }
     }
 }
+

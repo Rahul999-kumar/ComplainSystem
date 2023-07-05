@@ -24,11 +24,11 @@ namespace ComplainSystemApp.Migrations
 
             modelBuilder.Entity("ComplainSystem.DomainModelCore.CoreEntities.UserRegistartion", b =>
                 {
-                    b.Property<int>("RegistrationId")
+                    b.Property<int>("UserRegistrationId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RegistrationId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserRegistrationId"), 1L, 1);
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -61,7 +61,7 @@ namespace ComplainSystemApp.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("RegistrationId");
+                    b.HasKey("UserRegistrationId");
 
                     b.ToTable("UserRegistration");
                 });
