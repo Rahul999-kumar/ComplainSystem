@@ -103,7 +103,6 @@ D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\obj\Debug\net6.
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\obj\Debug\net6.0\ComplainSystem.Test.AssemblyInfoInputs.cache
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\obj\Debug\net6.0\ComplainSystem.Test.AssemblyInfo.cs
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\obj\Debug\net6.0\ComplainSystem.Test.csproj.CoreCompileInputs.cache
-D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\obj\Debug\net6.0\ComplainSystem.Test.csproj.CopyComplete
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\obj\Debug\net6.0\ComplainSystem.Test.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\obj\Debug\net6.0\refint\ComplainSystem.Test.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\obj\Debug\net6.0\ComplainSystem.Test.pdb
@@ -147,3 +146,8 @@ D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\bin\Debug\net6.
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\bin\Debug\net6.0\ComplainSystem.Infrastructure.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\bin\Debug\net6.0\ComplainSystem.Infrastructure.pdb
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\obj\Debug\net6.0\ComplainSystem.Test.sourcelink.json
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\obj\Debug\net6.0\Complain.577E1F7D.Up2Date
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\bin\Debug\net6.0\ComplainSystem_Utility.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Test\bin\Debug\net6.0\ComplainSystem_Utility.pdb

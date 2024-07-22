@@ -20,7 +20,7 @@ namespace ComplainSystemApp.Controllers
         [AllowAnonymous]
         [HttpPost]
         [Route("Authenicate")]
-        public IActionResult Authenticate(UserLogin userLogin)
+        public async Task<IActionResult> Authenticate(UserLogin userLogin)
         {
             var token = _tokenService.Authenticate(userLogin);
             if (token == null)
@@ -29,5 +29,14 @@ namespace ComplainSystemApp.Controllers
             }
             return Ok(token);
         }
+
+        //[HttpPost]
+        //public async Task<IActionResult> RefreshToken(Tokens token)
+        //{
+        //    if (token.Token)
+        //    {
+
+        //    }
+        //}
     }
 }

@@ -1,14 +1,12 @@
 ﻿using ComplainSystem.Application.BusinessModels;
 using ComplainSystem.Application.IRepositories;
+using ComplainSystem.DomainModelCore.CoreEntities;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace ComplainSystem.Infrastructure
 {
@@ -23,8 +21,9 @@ namespace ComplainSystem.Infrastructure
         }
         public Tokens Authenticate(UserLogin userLogin)
         {
-            var userData = _csDbContext.UserRegistration.Any(x => x.Username == userLogin.username && x.Password == userLogin.password);
-            if (!userData)
+            var userData = _csDbContext.UserRegistration.Where(x => x.Username == userLogin.username && x.Password == userLogin.password).FirstOrDefault();
+            //var userData = _csDbContext.UserRegistration.Any(x => x.Username == userLogin.username && x.Password == userLogin.password);
+            if (userData == null)
             {
                 return null;
             }
@@ -38,13 +37,30 @@ namespace ComplainSystem.Infrastructure
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(ClaimTypes.Name, userLogin.username)
+                    new Claim(ClaimTypes.Name, userLogin.username),
+                    new Claim(ClaimTypes.SerialNumber, Convert.ToString(userData.UserID)),
+                    new Claim(ClaimTypes.Role, "User")
                 }),
+
                 Expires = DateTime.UtcNow.AddMinutes(20),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(tokenKey), SecurityAlgorithms.HmacSha256Signature)
+                //Audience = _configuration["Jwt:Audience"],
+                //Issuer = _configuration["Jwt:Issuer"]
             };
             var token = tokenHandelr.CreateToken(tokenDescriptor);
-            return new Tokens { Token = tokenHandelr.WriteToken(token) };
+            //var refreshToken = GenerateRefreshToken();
+            return new Tokens
+            {
+                Token = tokenHandelr.WriteToken(token)
+                //,RefreshToken = refreshToken
+            };
+        }
+
+        private static string GenerateRefreshToken()
+        {
+            var tokenBytes = RandomNumberGenerator.GetBytes(64);
+            var refreshToken = Convert.ToBase64String(tokenBytes);
+            return refreshToken;
         }
     }
 }

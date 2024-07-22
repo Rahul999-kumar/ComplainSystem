@@ -12,4 +12,5 @@ D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Application\obj\Debu
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Application\obj\Debug\net6.0\ref\ComplainSystem.Application.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Application\bin\Debug\net6.0\ComplainSystem.DomainModelCore.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Application\bin\Debug\net6.0\ComplainSystem.DomainModelCore.pdb
-D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Application\obj\Debug\net6.0\ComplainSystem.Application.csproj.CopyComplete
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Application\obj\Debug\net6.0\ComplainSystem.Application.sourcelink.json
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Application\obj\Debug\net6.0\Complain.4D2CA5B3.Up2Date

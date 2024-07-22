@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ComplainSystem.Application\ComplainSystem.Application.csproj" />
+    <ProjectReference Include="..\ComplainSystem_Utility\ComplainSystem_Utility.csproj" />
   </ItemGroup>
 
 </Project>

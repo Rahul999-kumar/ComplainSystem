@@ -9,7 +9,6 @@ D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\D
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.AssemblyInfoInputs.cache
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.AssemblyInfo.cs
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.csproj.CoreCompileInputs.cache
-D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.csproj.CopyComplete
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\refint\ComplainSystem.Infrastructure.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.pdb
@@ -17,3 +16,7 @@ D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\D
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ref\ComplainSystem.Infrastructure.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\bin\Debug\net6.0\ComplainSystem.DomainModelCore.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\bin\Debug\net6.0\ComplainSystem.DomainModelCore.pdb
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\ComplainSystem.Infrastructure.sourcelink.json
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\obj\Debug\net6.0\Complain.D0619F93.Up2Date
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\bin\Debug\net6.0\ComplainSystem_Utility.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem.Infrastructure\bin\Debug\net6.0\ComplainSystem_Utility.pdb

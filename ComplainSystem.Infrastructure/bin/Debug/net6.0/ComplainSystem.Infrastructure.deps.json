@@ -9,6 +9,7 @@
       "ComplainSystem.Infrastructure/1.0.0": {
         "dependencies": {
           "ComplainSystem.Application": "1.0.0",
+          "ComplainSystem_Utility": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.3",
           "Microsoft.EntityFrameworkCore.Design": "6.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3",
@@ -590,6 +591,11 @@
         "runtime": {
           "ComplainSystem.DomainModelCore.dll": {}
         }
+      },
+      "ComplainSystem_Utility/1.0.0": {
+        "runtime": {
+          "ComplainSystem_Utility.dll": {}
+        }
       }
     }
   },
@@ -997,6 +1003,11 @@
       "sha512": ""
     },
     "ComplainSystem.DomainModelCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ComplainSystem_Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

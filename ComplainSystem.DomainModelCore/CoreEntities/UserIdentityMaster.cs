@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ComplainSystem.DomainModelCore.CoreEntities
 {
-    public class UserIdentityMaster
+    public class UserIdentityMaster : BaseEntities
     {
         [Key]
         public int IdentityId { get; set; }

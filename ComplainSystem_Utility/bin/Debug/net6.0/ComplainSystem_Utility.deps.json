@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ComplainSystem_Utility/1.0.0": {
+        "runtime": {
+          "ComplainSystem_Utility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ComplainSystem_Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

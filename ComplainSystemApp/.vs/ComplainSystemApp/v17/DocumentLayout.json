@@ -1,0 +1,236 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystemApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{494612B1-9C1B-45CB-A175-4077C876A24A}|ComplainSystemApp.csproj|d:\\projects\\2023_learning\\complainsystemrepo\\complainsystemapp\\globalexceptionmiddleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{494612B1-9C1B-45CB-A175-4077C876A24A}|ComplainSystemApp.csproj|solutionrelative:globalexceptionmiddleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E013107-8C0F-49EE-A45A-A45E2DDB8325}|..\\ComplainSystem.Application\\ComplainSystem.Application.csproj|d:\\projects\\2023_learning\\complainsystemrepo\\complainsystem.application\\businessmodels\\problemdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{494612B1-9C1B-45CB-A175-4077C876A24A}|ComplainSystemApp.csproj|d:\\projects\\2023_learning\\complainsystemrepo\\complainsystemapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{494612B1-9C1B-45CB-A175-4077C876A24A}|ComplainSystemApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C49FA66B-FD5A-469C-AE2A-7C5606135011}|..\\ComplainSystem.Infrastructure\\ComplainSystem.Infrastructure.csproj|d:\\projects\\2023_learning\\complainsystemrepo\\complainsystem.infrastructure\\tokenrepsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{494612B1-9C1B-45CB-A175-4077C876A24A}|ComplainSystemApp.csproj|d:\\projects\\2023_learning\\complainsystemrepo\\complainsystemapp\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{494612B1-9C1B-45CB-A175-4077C876A24A}|ComplainSystemApp.csproj|solutionrelative:controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40346773-1FCE-4FD0-A84D-EEDED2660FA9}|..\\ComplainSystem.DomainModelCore\\ComplainSystem.DomainModelCore.csproj|d:\\projects\\2023_learning\\complainsystemrepo\\complainsystem.domainmodelcore\\coreentities\\userregistartion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{494612B1-9C1B-45CB-A175-4077C876A24A}|ComplainSystemApp.csproj|d:\\projects\\2023_learning\\complainsystemrepo\\complainsystemapp\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{494612B1-9C1B-45CB-A175-4077C876A24A}|ComplainSystemApp.csproj|solutionrelative:controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{494612B1-9C1B-45CB-A175-4077C876A24A}|ComplainSystemApp.csproj|d:\\projects\\2023_learning\\complainsystemrepo\\complainsystemapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{494612B1-9C1B-45CB-A175-4077C876A24A}|ComplainSystemApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C49FA66B-FD5A-469C-AE2A-7C5606135011}|..\\ComplainSystem.Infrastructure\\ComplainSystem.Infrastructure.csproj|d:\\projects\\2023_learning\\complainsystemrepo\\complainsystem.infrastructure\\csdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40346773-1FCE-4FD0-A84D-EEDED2660FA9}|..\\ComplainSystem.DomainModelCore\\ComplainSystem.DomainModelCore.csproj|d:\\projects\\2023_learning\\complainsystemrepo\\complainsystem.domainmodelcore\\coreentities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C49FA66B-FD5A-469C-AE2A-7C5606135011}|..\\ComplainSystem.Infrastructure\\ComplainSystem.Infrastructure.csproj|d:\\projects\\2023_learning\\complainsystemrepo\\complainsystem.infrastructure\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E013107-8C0F-49EE-A45A-A45E2DDB8325}|..\\ComplainSystem.Application\\ComplainSystem.Application.csproj|d:\\projects\\2023_learning\\complainsystemrepo\\complainsystem.application\\repositories\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E013107-8C0F-49EE-A45A-A45E2DDB8325}|..\\ComplainSystem.Application\\ComplainSystem.Application.csproj|d:\\projects\\2023_learning\\complainsystemrepo\\complainsystem.application\\iservices\\iuserprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E013107-8C0F-49EE-A45A-A45E2DDB8325}|..\\ComplainSystem.Application\\ComplainSystem.Application.csproj|d:\\projects\\2023_learning\\complainsystemrepo\\complainsystem.application\\irepositories\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProblemDetails.cs",
+              "DocumentMoniker": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.Application\\BusinessModels\\ProblemDetails.cs",
+              "RelativeDocumentMoniker": "..\\ComplainSystem.Application\\BusinessModels\\ProblemDetails.cs",
+              "ToolTip": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.Application\\BusinessModels\\ProblemDetails.cs",
+              "RelativeToolTip": "..\\ComplainSystem.Application\\BusinessModels\\ProblemDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T16:11:37.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobalExceptionMiddleWare.cs",
+              "DocumentMoniker": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystemApp\\GlobalExceptionMiddleware\\GlobalExceptionMiddleWare.cs",
+              "RelativeDocumentMoniker": "GlobalExceptionMiddleware\\GlobalExceptionMiddleWare.cs",
+              "ToolTip": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystemApp\\GlobalExceptionMiddleware\\GlobalExceptionMiddleWare.cs",
+              "RelativeToolTip": "GlobalExceptionMiddleware\\GlobalExceptionMiddleWare.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAACcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T16:08:38.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenRepsitory.cs",
+              "DocumentMoniker": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.Infrastructure\\TokenRepsitory.cs",
+              "RelativeDocumentMoniker": "..\\ComplainSystem.Infrastructure\\TokenRepsitory.cs",
+              "ToolTip": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.Infrastructure\\TokenRepsitory.cs",
+              "RelativeToolTip": "..\\ComplainSystem.Infrastructure\\TokenRepsitory.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwDEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T13:48:07.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserLoginController.cs",
+              "DocumentMoniker": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystemApp\\Controllers\\UserLoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserLoginController.cs",
+              "ToolTip": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystemApp\\Controllers\\UserLoginController.cs",
+              "RelativeToolTip": "Controllers\\UserLoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T13:47:53.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CSDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.Infrastructure\\CSDbContext.cs",
+              "RelativeDocumentMoniker": "..\\ComplainSystem.Infrastructure\\CSDbContext.cs",
+              "ToolTip": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.Infrastructure\\CSDbContext.cs",
+              "RelativeToolTip": "..\\ComplainSystem.Infrastructure\\CSDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T13:37:12.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRegistartion.cs",
+              "DocumentMoniker": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.DomainModelCore\\CoreEntities\\UserRegistartion.cs",
+              "RelativeDocumentMoniker": "..\\ComplainSystem.DomainModelCore\\CoreEntities\\UserRegistartion.cs",
+              "ToolTip": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.DomainModelCore\\CoreEntities\\UserRegistartion.cs",
+              "RelativeToolTip": "..\\ComplainSystem.DomainModelCore\\CoreEntities\\UserRegistartion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T13:34:30.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.DomainModelCore\\CoreEntities\\UserProfile.cs",
+              "RelativeDocumentMoniker": "..\\ComplainSystem.DomainModelCore\\CoreEntities\\UserProfile.cs",
+              "ToolTip": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.DomainModelCore\\CoreEntities\\UserProfile.cs",
+              "RelativeToolTip": "..\\ComplainSystem.DomainModelCore\\CoreEntities\\UserProfile.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T13:34:28.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystemApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystemApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-20T13:31:39.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystemApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystemApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAFsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T13:31:37.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserProfileController.cs",
+              "DocumentMoniker": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystemApp\\Controllers\\UserProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserProfileController.cs",
+              "ToolTip": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystemApp\\Controllers\\UserProfileController.cs",
+              "RelativeToolTip": "Controllers\\UserProfileController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T16:40:46.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserProfileService.cs",
+              "DocumentMoniker": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.Application\\Repositories\\UserProfileService.cs",
+              "RelativeDocumentMoniker": "..\\ComplainSystem.Application\\Repositories\\UserProfileService.cs",
+              "ToolTip": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.Application\\Repositories\\UserProfileService.cs",
+              "RelativeToolTip": "..\\ComplainSystem.Application\\Repositories\\UserProfileService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T13:14:08.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserProfileService.cs",
+              "DocumentMoniker": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.Application\\IServices\\IUserProfileService.cs",
+              "RelativeDocumentMoniker": "..\\ComplainSystem.Application\\IServices\\IUserProfileService.cs",
+              "ToolTip": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.Application\\IServices\\IUserProfileService.cs",
+              "RelativeToolTip": "..\\ComplainSystem.Application\\IServices\\IUserProfileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T13:14:04.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserProfileRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.Application\\IRepositories\\IUserProfileRepository.cs",
+              "RelativeDocumentMoniker": "..\\ComplainSystem.Application\\IRepositories\\IUserProfileRepository.cs",
+              "ToolTip": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.Application\\IRepositories\\IUserProfileRepository.cs",
+              "RelativeToolTip": "..\\ComplainSystem.Application\\IRepositories\\IUserProfileRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T13:14:01.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserProfileRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.Infrastructure\\UserProfileRepository.cs",
+              "RelativeDocumentMoniker": "..\\ComplainSystem.Infrastructure\\UserProfileRepository.cs",
+              "ToolTip": "D:\\Projects\\2023_Learning\\ComplainSystemRepo\\ComplainSystem.Infrastructure\\UserProfileRepository.cs",
+              "RelativeToolTip": "..\\ComplainSystem.Infrastructure\\UserProfileRepository.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAhwDAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T12:58:22.575Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

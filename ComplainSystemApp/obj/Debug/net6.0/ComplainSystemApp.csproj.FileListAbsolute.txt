@@ -20,7 +20,6 @@ D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\staticwebassets.build.json
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\staticwebassets.development.json
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\scopedcss\bundle\ComplainSystemApp.styles.css
-D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\ComplainSystemApp.csproj.CopyComplete
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\ComplainSystemApp.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\refint\ComplainSystemApp.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\ComplainSystemApp.pdb
@@ -65,3 +64,12 @@ D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\bin\Debug\net6.0\
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\bin\Debug\net6.0\ComplainSystem.Infrastructure.dll
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\bin\Debug\net6.0\ComplainSystem.Infrastructure.pdb
 D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\ComplainSystemApp.sourcelink.json
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\staticwebassets\msbuild.ComplainSystemApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\staticwebassets\msbuild.build.ComplainSystemApp.props
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ComplainSystemApp.props
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ComplainSystemApp.props
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\obj\Debug\net6.0\Complain.1C102C0C.Up2Date
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\bin\Debug\net6.0\ComplainSystem_Utility.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystemApp\bin\Debug\net6.0\ComplainSystem_Utility.pdb

@@ -1,0 +1,12 @@
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem_Utility\bin\Debug\net6.0\ComplainSystem_Utility.deps.json
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem_Utility\bin\Debug\net6.0\ComplainSystem_Utility.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem_Utility\bin\Debug\net6.0\ComplainSystem_Utility.pdb
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem_Utility\obj\Debug\net6.0\ComplainSystem_Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem_Utility\obj\Debug\net6.0\ComplainSystem_Utility.AssemblyInfoInputs.cache
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem_Utility\obj\Debug\net6.0\ComplainSystem_Utility.AssemblyInfo.cs
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem_Utility\obj\Debug\net6.0\ComplainSystem_Utility.csproj.CoreCompileInputs.cache
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem_Utility\obj\Debug\net6.0\ComplainSystem_Utility.sourcelink.json
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem_Utility\obj\Debug\net6.0\ComplainSystem_Utility.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem_Utility\obj\Debug\net6.0\refint\ComplainSystem_Utility.dll
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem_Utility\obj\Debug\net6.0\ComplainSystem_Utility.pdb
+D:\Projects\2023_Learning\ComplainSystemRepo\ComplainSystem_Utility\obj\Debug\net6.0\ref\ComplainSystem_Utility.dll

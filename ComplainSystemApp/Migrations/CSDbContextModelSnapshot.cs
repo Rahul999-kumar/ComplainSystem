@@ -22,48 +22,216 @@ namespace ComplainSystemApp.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("ComplainSystem.DomainModelCore.CoreEntities.UserRegistartion", b =>
+            modelBuilder.Entity("ComplainSystem.DomainModelCore.CoreEntities.DocumentMaster", b =>
                 {
-                    b.Property<int>("UserRegistrationId")
+                    b.Property<int>("DocumentId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserRegistrationId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DocumentId"), 1L, 1);
 
-                    b.Property<string>("Email")
+                    b.Property<string>("PhotoPath")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("FirstName")
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("DocumentId");
+
+                    b.ToTable("DocumentMaster");
+                });
+
+            modelBuilder.Entity("ComplainSystem.DomainModelCore.CoreEntities.FlatMaster", b =>
+                {
+                    b.Property<int>("FlatId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FlatId"), 1L, 1);
+
+                    b.Property<string>("FlatNo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("LastLogin")
+                    b.Property<int>("FloorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SocietyId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TowerId")
+                        .HasColumnType("int");
+
+                    b.HasKey("FlatId");
+
+                    b.ToTable("FlatMaster");
+                });
+
+            modelBuilder.Entity("ComplainSystem.DomainModelCore.CoreEntities.FloorMaster", b =>
+                {
+                    b.Property<int>("FloorId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FloorId"), 1L, 1);
+
+                    b.Property<int>("FloorNo")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SocietyId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TowerId")
+                        .HasColumnType("int");
+
+                    b.HasKey("FloorId");
+
+                    b.ToTable("FloorMaster");
+                });
+
+            modelBuilder.Entity("ComplainSystem.DomainModelCore.CoreEntities.SocietyMaster", b =>
+                {
+                    b.Property<int>("SocietyId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SocietyId"), 1L, 1);
+
+                    b.Property<string>("SocietyName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("SocietyId");
+
+                    b.ToTable("SocietyMaster");
+                });
+
+            modelBuilder.Entity("ComplainSystem.DomainModelCore.CoreEntities.TowerMaster", b =>
+                {
+                    b.Property<int>("TowerId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TowerId"), 1L, 1);
+
+                    b.Property<int>("SocietyId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TowerName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("TowerId");
+
+                    b.ToTable("TowerMaster");
+                });
+
+            modelBuilder.Entity("ComplainSystem.DomainModelCore.CoreEntities.UserProfile", b =>
+                {
+                    b.Property<int>("UserProfileId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserProfileId"), 1L, 1);
+
+                    b.Property<int>("AddedBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("AddedOn")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Lastname")
-                        .IsRequired()
+                    b.Property<string>("AlternateMobile")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("MobileNo")
-                        .IsRequired()
+                    b.Property<DateTime?>("DOB")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("FirstName")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("GenderID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("IPAddress")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LastName")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Mobile")
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<int>("ModifiedBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
+
+                    b.HasKey("UserProfileId");
+
+                    b.ToTable("UserProfile");
+                });
+
+            modelBuilder.Entity("ComplainSystem.DomainModelCore.CoreEntities.UserRegistartion", b =>
+                {
+                    b.Property<int>("UserID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserID"), 1L, 1);
+
+                    b.Property<DateTime>("AddedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("IPAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("LastLogin")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Token")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("UserRegistrationId");
+                    b.HasKey("UserID");
 
                     b.ToTable("UserRegistration");
+                });
+
+            modelBuilder.Entity("ComplainSystem.DomainModelCore.CoreEntities.UserRole", b =>
+                {
+                    b.Property<int>("UserRoleID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserRoleID"), 1L, 1);
+
+                    b.Property<int>("RoleID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
+
+                    b.HasKey("UserRoleID");
+
+                    b.ToTable("UserRole");
                 });
 #pragma warning restore 612, 618
         }
